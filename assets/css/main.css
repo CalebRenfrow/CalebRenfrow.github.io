@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    font-family: 'Rokkitt',serif;
+}
+
+/* navbar */
+.navbar{
+    padding: 1% 0;
+    opacity: .8;
+}
+.navbar, .navbar-brand {
+    font-size: 1.35em;
+}
+
+/* welcome image/text */
+
+#welcome-image{
+    background: url(../images/deep_space.PNG) no-repeat center center fixed;
+    display: table; position: relative; height: 100%;  width: 100%;  background-size: cover;
+}
+
+.welcome-text{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color:  #d665f8;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.welcome-text img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.my-information {
+    padding: 60px 40px 60px 40px;
+    color: rgb(194, 194, 194);
+}
+
+/* about */
+#about img{
+    width: 50%;
+    height: 50%;
+}
+
+
+/*  scroll pic */
+#scroll-pic{
+    background: url(../images/space_art.PNG) no-repeat 0px 20px fixed;
+    display: table; position: relative; height: 10%;  width: 100%;  background-size: cover;
+}
+
+/* footer */
+footer{
+    color: rgb(194, 194, 194);
+}
+/* connect-icons */
+.connect-icons a{
+    padding: 2px 4px 2px 4px;
+}
