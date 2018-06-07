@@ -12,9 +12,14 @@ body{
 .navbar{
     padding: 1% 0;
     opacity: .8;
+} 
+
+.navbar-brand{
+font-size: 35px;
 }
-.navbar, .navbar-brand {
-    font-size: 1.35em;
+
+#myNavbar a {
+    font-size: 25px;
 }
 
 /* welcome image/text */
@@ -40,7 +45,7 @@ body{
 }
 
 .my-information {
-    padding: 60px 40px 60px 40px;
+    padding: 45px 40px 45px 40px;
     color: rgb(194, 194, 194);
 }
 
@@ -55,13 +60,32 @@ body{
 #scroll-pic{
     background: url(../images/space_art.PNG) no-repeat 0px 20px fixed;
     display: table; position: relative; height: 10%;  width: 100%;  background-size: cover;
+    padding: 100px;
 }
+
+
+/* skills */
+#skills h2 {
+    font-size: 5em;
+}
+
+
 
 /* footer */
 footer{
     color: rgb(194, 194, 194);
+    padding: 30px;
+}
+
+footer h3 {
+   font-size: 35px;
+}
+
+footer p {
+    font-size: 25px;
 }
 /* connect-icons */
 .connect-icons a{
     padding: 2px 4px 2px 4px;
 }
+
