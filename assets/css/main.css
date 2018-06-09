@@ -49,6 +49,16 @@ font-size: 35px;
     color: rgb(194, 194, 194);
 }
 
+.my-information p {
+    font-size: 20px;
+}
+
+.my-information h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(233, 233, 233);
+}
+
 /* about */
 #about img{
     width: 50%;
@@ -69,7 +79,10 @@ font-size: 35px;
     font-size: 5em;
 }
 
-
+/* projects */
+#projects-instructions{
+    color: aquamarine;
+}
 
 /* footer */
 footer{
