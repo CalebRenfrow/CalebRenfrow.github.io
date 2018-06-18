@@ -88,6 +88,8 @@ font-size: 35px;
 footer{
     color: rgb(194, 194, 194);
     padding: 30px;
+    background-color: #222;
+    opacity: .8;
 }
 
 footer h3 {
@@ -97,6 +99,8 @@ footer h3 {
 footer p {
     font-size: 25px;
 }
+
+
 /* connect-icons */
 .connect-icons a{
     padding: 2px 4px 2px 4px;
